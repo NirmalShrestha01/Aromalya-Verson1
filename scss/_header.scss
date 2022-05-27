@@ -1,0 +1,277 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    width: 100vw;
+}
+
+.navbar-brand img {
+    width: 9rem;
+    margin: 1rem 2rem;
+}
+
+.swiper {
+    width: 100%;
+    z-index: -1000;
+    overflow: hidden;
+    width: 100vw;
+   
+}
+
+.swiper-slide img {
+    width: 100%;
+    overflow-x: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+// .swiper .swiper-button-prev,
+// .swiper .swiper-button-next {
+//     color: gray;
+// }
+
+/* //This one is for slider bullets */
+.swiper .swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    a {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+
+    i {
+        // font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+    
+}
+
+.banner_description {
+    margin-top: 10%;
+    margin-left: 15%;
+    line-height: 1.2;
+
+    h1 {
+        font-size: 9rem;
+    }
+
+    p {
+        font-size: 3.2rem;
+        font-family: 'Marcellus', serif;
+    }
+    
+    button {
+        background-color: $hover-color;
+        padding: 1.2rem 2rem;
+        color: #fff;
+        font-size: 2rem;
+        border: none;
+        outline: none;
+        border-radius: 0.5rem;
+        margin-top: 2.5rem;
+        font-family: 'Poppins', sans-serif;
+
+        a {
+            color: #fff !important;
+        }
+    }
+}
+
+.header_arrow {
+    position: absolute;
+    top: 85%;
+    left: 26%;
+}
+
+
+
+
+
+
+/******************* - MEDIA QUERIES STARTED - ***********************/
+
+@media (max-width: 430px) {
+    .header_arrow {
+        width: 1.5rem;
+        top: 85%;
+        left: 36%;
+    }
+
+    .navbar-brand img {
+        width: 3rem;
+        // margin: 1rem 2rem;
+    }
+
+    .navbar-toggler-icon  {
+    
+        i {
+            display: inline-block;
+            font-size: 2rem;
+            border: none;
+            outline: none;
+            color: $hover-color;
+            margin-top: -10rem;
+        }
+    
+    }
+
+    .navbar-nav {
+        background-color: #35EBB5;
+        position: absolute;
+        top: 90%;
+        left: 0%;
+        width: 100%;
+        z-index: 100;
+        transition: transform 0.4s linear;
+        padding: 2rem;
+        
+    }
+    
+    
+.banner_description {
+    margin-top: 3%;
+    margin-left: 5%;
+    line-height: 1.2;
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        font-family: 'Marcellus', serif;
+    }
+    
+    button {
+        background-color: $hover-color;
+        padding: 0.5rem 1.2rem;
+        color: #fff;
+        font-size: 1rem;
+        border: none;
+        outline: none;
+        border-radius: 0.5rem;
+        margin-top: 0.2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+}
+
+
+@media (min-width: 435px) and (max-width: 800px) {
+        .header_arrow {
+            width: 3.5rem;
+            top: 82%;
+            left: 23%;
+        }
+
+        .navbar-brand img {
+            width: 8rem;
+        }
+
+        .navbar-toggler-icon  {
+        
+            i {
+                font-size: 4rem;
+            
+            }
+        
+        }
+
+        .navbar-nav {
+            background-color: #35EBB5;
+            position: absolute;
+            top: 90%;
+            left: 0%;
+            width: 100%;
+            z-index: 100;
+            transition: all 0.4s linear;
+            padding: 2rem;
+            
+        }
+        
+        
+    .banner_description {
+        margin-top: 3%;
+        margin-left: 5%;
+        line-height: 1.2;
+
+        h1 {
+            font-size: 6.5rem;
+        }
+
+        p {
+            font-size: 1.8rem;
+            font-family: 'Marcellus', serif;
+        }
+        
+        button {
+            padding: 1.5rem 3.2rem;
+            font-size: 1rem;
+            border: none;
+            
+        }
+    }
+}
+
+
+@media (min-width: 810px) and (max-width: 1050px) {
+    
+    .banner_description {
+        margin-top: 7%;
+        margin-left: 15%;
+        line-height: 1.2;
+    
+        h1 {
+            font-size: 7rem;
+        }
+    
+        p {
+            font-size: 2.2rem;
+            font-family: 'Marcellus', serif;
+        }
+        
+     
+    }
+    
+    .header_arrow {
+        position: absolute;
+        top: 83%;
+        left: 32%;
+    }
+}
+
+
+
+
+
+
+
+/******************* - MEDIA QUERIES STARTED - ***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,173 @@
+
+
+.account_page_banner {
+    background: url(../images/header-background.png);
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        padding-top: 18rem;
+        // margin-left: -36rem;
+        font-size: 7rem;
+    }
+}
+
+
+
+
+
+.banner-account {
+    width: 100%;
+    height: 40vh;
+    background-color: #cccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.account_page {
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+	width: 100%;
+	height: 100vh;
+    position: relative;
+	background: url(../images/banners.jpg);
+}
+
+.card{
+	width: 40rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	// background-color: #e2e4cd;;
+}
+
+.card-body{
+	box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+	padding: 0.1rem 0rem;
+	border-radius: 0.5rem;
+	width: 100%;
+	height: 40rem;
+	overflow: hidden;
+}
+
+.card-body-top{
+	width: 100%;
+	position: relative;
+	box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    margin-top: -1rem;
+}
+
+.card-body-top > .btn{
+	border: none;
+	background-color: transparent;
+	color: $paragraph-color;
+	font-size: 1.6rem;
+	letter-spacing: 0.1rem;
+	font-weight: 500;
+	width: 18rem;
+	padding: 2rem 0;
+	outline: none;
+}
+
+.card-body-top > .btn:focus {
+	border: none;
+	outline: none;
+	box-shadow: none;
+}
+
+#login{
+	color: #000000;
+    font-weight: bold;
+    font-family: 'Marcellus', serif;
+    font-size: 2rem;
+}
+
+#register{
+    font-weight: bold;
+    font-family: 'Marcellus', serif;
+    font-size: 2rem;
+	color: #000000;
+}
+
+#pointer-btn{
+	position: absolute;
+	bottom:-0.1rem;
+	left: 3rem;
+	width: 12rem;
+	height: 0.2rem;
+	background-color: $hover-color;
+	transition: 0.5s all ease;
+}
+
+
+
+.card-body-login{
+	width: 100%;
+	padding: 1.5rem 2rem;
+	position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-body-login > #login-form{
+	position: absolute;
+	top: 6rem;
+	left: 2.5rem;
+	text-align: center;
+	transition: 0.5s all ease;
+    color: #868686;
+}
+
+.card-body-login > #register-form{
+	position: absolute;
+	top: 2rem;
+	left: 45rem;
+	text-align: center;
+	transition: 0.5s all ease;
+}
+
+.input-form{
+	border: none;
+	background-color: transparent;
+	border-bottom: 1px solid #eeeef2;
+	width: 35rem;
+	padding: 1.5rem 0rem;
+	font-size: 1.5rem;
+	letter-spacing: 0.1rem;
+	outline: none;
+}
+
+.input-form::placeholder {
+    color:  #B2B1B9;
+}
+
+.submit-form{
+	background-color: $hover-color;
+	color: #fff;
+	border: none;
+	padding: 1rem 2.5rem;
+	font-size: 1.5rem;
+	cursor: pointer;
+	letter-spacing: 0.1rem;
+	border-radius: 0.5rem;
+}
+
+@media (max-width:430px) {
+	.account_page_banner h1 {
+		
+		font-size: 4.5rem;
+	}
+}
+

@@ -1,0 +1,147 @@
+.why_choose_us_section {
+    background-color: #38edb8;
+    position: relative;
+
+    .why_choose_us_section_design_background {
+        position: absolute;
+        top: 32%;
+        right: 4%;
+        width: 20rem;
+    }
+}
+
+.why_choose_us {
+    background: url(../images/why-choose-us-background1.png);
+    // opacity: 0.030;
+    width: 100%;
+    height: 50rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+
+}
+
+.why_choose_us_left {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    padding: 5rem;
+    
+}
+
+.why_choose_us_left_box {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: -20px -20px 0px 0px rgba(102,102,102,0.75);
+    -webkit-box-shadow: -20px -20px 0px 0px rgba(102,102,102,0.75);
+    -moz-box-shadow: -20px -20px 0px 0px rgba(102,102,102,0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+
+    h5 {
+        font-size: 1.5rem;
+        color: #000000;
+        padding: 0.4rem 0rem;
+        // font-family: 'poppins', serif;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+
+.why_choose_us_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40rem;
+    text-align: justify;
+    color: $paragraph-color;
+
+   a {
+       text-decoration: none;
+       color: #fff!important;
+
+       &:hover {
+           color: red !important;
+       }
+   }
+}
+
+
+
+/******************* - MEDIA QUERIES STARTED - ***********************/
+
+@media (max-width: 430px) {
+
+    .why_choose_us {
+        display: grid;
+        grid-template-rows: 1fr;
+
+        .why_choose_us_left {
+            display: none;
+        }
+        .why_choose_us_right {
+            
+            width: 28rem;
+            text-align: justify;
+            color: $paragraph-color;
+            margin: 2rem;
+        
+           a {
+               text-decoration: none;
+               color: #fff!important;
+        
+               &:hover {
+                   color: red !important;
+               }
+           }
+        }
+    
+    }
+
+}
+
+
+@media (min-width: 435px) and (max-width: 800px) {
+
+    .why_choose_us {
+        display: grid;
+        grid-template-rows: 1fr;
+
+        .why_choose_us {
+            display: grid;
+            grid-template-columns: 60% 40%;
+        }
+
+        .why_choose_us_left {
+            text-align: center;
+        }
+        .why_choose_us_right {
+            
+            width: 28rem;
+            text-align: justify;
+            color: $paragraph-color;
+            margin: 2rem;
+        
+           a {
+               text-decoration: none;
+               color: #fff!important;
+        
+               &:hover {
+                   color: red !important;
+               }
+           }
+        }
+    
+    }
+
+}
+
+
+
+/******************* - MEDIA QUERIES STARTED - ***********************/
+

@@ -1,0 +1,131 @@
+
+.shop_cart {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .shop_cart .tooltiptext {
+    visibility: hidden;
+    width: 70px;
+    background-color: #fff;
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    // font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 100%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .shop_cart .tooltiptext::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent ;
+  }
+  
+  .shop_cart:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+  .shop_basket {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .shop_basket .tooltiptext {
+    visibility: hidden;
+    width: 70px;
+    background-color: #fff;
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    // font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 100%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .shop_basket .tooltiptext::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent ;
+  }
+  
+  .shop_basket:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+  .shop_view {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .shop_view .tooltiptext {
+    visibility: hidden;
+    width: 70px;
+    background-color: #fff;
+    color: #000000;
+    text-align: center;
+    border-radius: 6px;
+    // font-weight: 700;
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 100%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  .shop_view .tooltiptext::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent ;
+  }
+  
+  .shop_view:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
