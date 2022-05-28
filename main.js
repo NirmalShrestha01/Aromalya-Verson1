@@ -24,7 +24,6 @@
 
 // PAYMENT DETAILS JS START
 
-
 var coll = document.getElementsByClassName("collapsible_cards");
 var i;
 

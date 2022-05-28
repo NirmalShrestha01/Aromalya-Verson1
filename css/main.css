@@ -12,16 +12,17 @@ html {
   scroll-behavior: smooth;
 }
 
-body, html {
+body,
+html {
   overflow-x: hidden;
 }
 
 .navbar_top {
-  background-color: #EFEFEF;
-  transition: background-color .5s ease-in-out;
-  -webkit-transition: background-color .5s linear;
-  -moz-transition: background-color .5s linear;
-  -o-transition: background-color .5s linear;
+  background-color: #efefef;
+  transition: background-color 0.5s ease-in-out;
+  -webkit-transition: background-color 0.5s linear;
+  -moz-transition: background-color 0.5s linear;
+  -o-transition: background-color 0.5s linear;
 }
 
 .navbar-toggler-icon i {
@@ -29,7 +30,7 @@ body, html {
   font-size: 4rem;
   border: none;
   outline: none;
-  color: #6BCB77;
+  color: #6bcb77;
   margin-top: -10rem;
 }
 
@@ -39,8 +40,10 @@ body, html {
   box-shadow: none;
 }
 
-h1, h2, h5 {
-  font-family: 'Marcellus', serif;
+h1,
+h2,
+h5 {
+  font-family: "Marcellus", serif;
   color: #1a2428;
   font-weight: 700;
 }
@@ -62,11 +65,11 @@ h5 {
 }
 
 .title::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 120%;
   left: 0%;
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   width: 100%;
   height: 0.3rem;
   border-radius: 5px;
@@ -78,16 +81,16 @@ h5 {
 }
 
 .product_name a:hover {
-  color: #6BCB77;
+  color: #6bcb77;
 }
 
 .strike {
   text-decoration: line-through;
-  color: #EB5353;
+  color: #eb5353;
 }
 
 .price {
-  color: #6BCB77;
+  color: #6bcb77;
 }
 
 .ratings {
@@ -99,7 +102,7 @@ h5 {
 .reviews {
   margin-top: 0.6rem;
   margin-left: -0.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -108,8 +111,9 @@ h5 {
   padding: 1rem 2rem;
 }
 
-p, a {
-  font-family: 'Poppins', sans-serif;
+p,
+a {
+  font-family: "Poppins", sans-serif;
   color: #000000 !important;
   font-size: 1.6rem;
   border-radius: 0.5rem;
@@ -147,7 +151,7 @@ hr {
 }
 
 .btn {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
 }
 
 .btn:hover {
@@ -220,11 +224,11 @@ button a {
 
 .banner_description p {
   font-size: 3.2rem;
-  font-family: 'Marcellus', serif;
+  font-family: "Marcellus", serif;
 }
 
 .banner_description button {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   padding: 1.2rem 2rem;
   color: #fff;
   font-size: 2rem;
@@ -232,7 +236,7 @@ button a {
   outline: none;
   border-radius: 0.5rem;
   margin-top: 2.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .banner_description button a {
@@ -260,11 +264,11 @@ button a {
     font-size: 2rem;
     border: none;
     outline: none;
-    color: #6BCB77;
+    color: #6bcb77;
     margin-top: -10rem;
   }
   .navbar-nav {
-    background-color: #35EBB5;
+    background-color: #35ebb5;
     position: absolute;
     top: 90%;
     left: 0%;
@@ -283,10 +287,10 @@ button a {
   }
   .banner_description p {
     font-size: 0.8rem;
-    font-family: 'Marcellus', serif;
+    font-family: "Marcellus", serif;
   }
   .banner_description button {
-    background-color: #6BCB77;
+    background-color: #6bcb77;
     padding: 0.5rem 1.2rem;
     color: #fff;
     font-size: 1rem;
@@ -294,7 +298,7 @@ button a {
     outline: none;
     border-radius: 0.5rem;
     margin-top: 0.2rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .banner_description button a {
     font-size: 10px;
@@ -314,7 +318,7 @@ button a {
     font-size: 4rem;
   }
   .navbar-nav {
-    background-color: #35EBB5;
+    background-color: #35ebb5;
     position: absolute;
     top: 90%;
     left: 0%;
@@ -333,7 +337,7 @@ button a {
   }
   .banner_description p {
     font-size: 1.8rem;
-    font-family: 'Marcellus', serif;
+    font-family: "Marcellus", serif;
   }
   .banner_description button {
     padding: 1.5rem 3.2rem;
@@ -353,7 +357,7 @@ button a {
   }
   .banner_description p {
     font-size: 2.2rem;
-    font-family: 'Marcellus', serif;
+    font-family: "Marcellus", serif;
   }
   .header_arrow {
     position: absolute;
@@ -402,7 +406,7 @@ button a {
 .search_button_top input {
   border: 1px solid #cccc;
   outline: 1px solid #cccc;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   padding: 0.5rem 0.1rem;
   height: 5rem;
   width: 22rem;
@@ -425,14 +429,14 @@ button a {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: .3s ease-in-out;
-  -webkit-transition: .3s ease-in-out;
-  -moz-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
 }
 
 .search_button_top .btn:hover {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   color: #fff;
   border: 1px solid #cccc;
   outline: 1px solid #cccc;
@@ -460,11 +464,11 @@ button a {
 
 .price_range_left input {
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .price_range_left input::after {
-  content: '500';
+  content: "500";
   color: #666666;
   font-size: 1.5rem;
   position: absolute;
@@ -477,7 +481,7 @@ button a {
 }
 
 .price_range_left input::before {
-  content: '0';
+  content: "0";
   color: #666666;
   font-size: 1.5rem;
   position: absolute;
@@ -493,7 +497,7 @@ button a {
   -webkit-appearance: none;
   width: 60%;
   height: 1rem;
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   outline: none;
   border-radius: 0.5rem;
   margin-top: 2rem;
@@ -542,8 +546,9 @@ button a {
   text-decoration: none !important;
 }
 
-.category:hover li, .category:hover a {
-  color: #6BCB77 !important;
+.category:hover li,
+.category:hover a {
+  color: #6bcb77 !important;
   transform: translateX(1rem);
   transition: transform 0.4s ease-in-out;
   -webkit-transition: transform 0.4s ease-in-out;
@@ -552,7 +557,7 @@ button a {
 }
 
 .category:hover .product_count {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   transition: background-color 0.4s ease-in-out;
   -webkit-transition: background-color 0.4s ease-in-out;
   -moz-transition: background-color 0.4s ease-in-out;
@@ -585,7 +590,7 @@ button a {
 }
 
 .feature_product_left a {
-  font-family: 'Marcellus', serif;
+  font-family: "Marcellus", serif;
   font-weight: bold;
   font-size: 1.7rem;
 }
@@ -645,7 +650,7 @@ button a {
 .show_result_section select {
   border: none;
   padding: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #666666;
   font-size: 1.5rem;
   box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
@@ -677,7 +682,7 @@ button a {
 }
 
 .product_box .box a {
-  font-family: 'Marcellus', serif;
+  font-family: "Marcellus", serif;
   font-weight: bold;
   font-size: 1.7rem;
 }
@@ -688,7 +693,7 @@ button a {
 }
 
 .product_box .box .box_inner_section .inner_section_right {
-  color: #6BCB77;
+  color: #6bcb77;
 }
 
 .box_inner_top_section {
@@ -726,22 +731,22 @@ button a {
   border-radius: 0.5rem;
   padding: 0.7rem 1.4rem;
   transform: translateY(-25rem);
-  transition: .3s ease-in-out;
-  -webkit-transition: .3s ease-in-out;
-  -moz-transition: .3s ease-in-out;
-  -o-transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition-property: transform;
   transition-delay: calc(0.1s * var(--i));
   cursor: pointer;
 }
 
 .box_inner_top_section .box_inner_section_overlay i:hover {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   color: #fff;
 }
 
 .box:hover {
-  outline: 0.4rem solid #6BCB77 !important;
+  outline: 0.4rem solid #6bcb77 !important;
   outline-offset: 0rem !important;
 }
 
@@ -792,18 +797,18 @@ button a {
   -moz-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   padding: 1rem 2rem;
   border-radius: 5px;
-  transition: .3s ease-in-out;
-  -webkit-transition: background-color .3s ease-in-out;
-  -moz-transition: background-color .3s ease-in-out;
-  -o-transition: background-color .3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
 }
 
 .pagination li a:hover {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
 }
 
 .pagination li a.active {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   color: #fff;
 }
 
@@ -847,7 +852,7 @@ button a {
     width: 100%;
     font-size: 1.5rem;
     color: #666666;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .product_box_section {
     display: flex;
@@ -900,7 +905,7 @@ button a {
     width: 100%;
     font-size: 1.5rem;
     color: #666666;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .product_box_section {
     display: flex;
@@ -956,7 +961,7 @@ button a {
     width: 100%;
     font-size: 1.5rem;
     color: #666666;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .product_box_section {
     display: flex;
@@ -1012,7 +1017,7 @@ button a {
     width: 100%;
     font-size: 1.5rem;
     color: #666666;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .product_box_section {
     display: flex;
@@ -1068,7 +1073,7 @@ button a {
     width: 100%;
     font-size: 1.5rem;
     color: #666666;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .product_box_section {
     display: flex;
@@ -1124,7 +1129,7 @@ button a {
     width: 100%;
     font-size: 1.5rem;
     color: #666666;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .product_box_section {
     display: flex;
@@ -1150,7 +1155,7 @@ button a {
   grid-template-columns: 40% 60%;
   gap: 2rem;
   border: 5px solid #ffb800;
-  background-color: #F1F6F9;
+  background-color: #f1f6f9;
   position: fixed;
   top: 21%;
   left: 17%;
@@ -1217,12 +1222,12 @@ button a {
 
 .product_preview_right .product_preview_price .strike {
   font-size: 2.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .product_preview_right .product_preview_price .price {
   font-size: 3rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .product_preview_right select {
@@ -1232,7 +1237,7 @@ button a {
   -webkit-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   -moz-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 2rem;
   color: #666666;
   font-size: 1.5rem;
@@ -1245,7 +1250,7 @@ button a {
   -webkit-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   -moz-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-left: 1rem;
   max-width: 6rem;
   color: #666666;
@@ -1261,13 +1266,13 @@ button a {
   box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   -webkit-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   -moz-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
-  transition: background-color .3s ease-in-out;
-  -webkit-transition: background-color .3s ease-in-out;
-  -moz-transition: background-color .3s ease-in-out;
-  -o-transition: background-color .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
   color: #666666;
   font-size: 1.5rem;
-  background-color: #6BCB77;
+  background-color: #6bcb77;
 }
 
 .product_preview_right .product_preview-button .add_to_cart:hover {
@@ -1276,7 +1281,7 @@ button a {
 
 .product_preview_right .product_preview-button .buy_now {
   margin-left: 0.5rem;
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   border: none;
   color: #fff;
 }
@@ -1345,7 +1350,7 @@ button a {
 }
 
 .account_page {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .main {
@@ -1404,13 +1409,13 @@ button a {
 #login {
   color: #000000;
   font-weight: bold;
-  font-family: 'Marcellus', serif;
+  font-family: "Marcellus", serif;
   font-size: 2rem;
 }
 
 #register {
   font-weight: bold;
-  font-family: 'Marcellus', serif;
+  font-family: "Marcellus", serif;
   font-size: 2rem;
   color: #000000;
 }
@@ -1421,7 +1426,7 @@ button a {
   left: 3rem;
   width: 12rem;
   height: 0.2rem;
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   transition: 0.5s all ease;
 }
 
@@ -1429,7 +1434,7 @@ button a {
   width: 100%;
   padding: 1.5rem 2rem;
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .card-body-login > #login-form {
@@ -1461,11 +1466,11 @@ button a {
 }
 
 .input-form::placeholder {
-  color: #B2B1B9;
+  color: #b2b1b9;
 }
 
 .submit-form {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   color: #fff;
   border: none;
   padding: 1rem 2.5rem;
@@ -1515,7 +1520,7 @@ button a {
 }
 
 .product_slogan_box_three {
-  background-color: #BCFFB9;
+  background-color: #bcffb9;
 }
 
 .product_slogan_box_four {
@@ -1792,7 +1797,7 @@ button a {
 
 .footer_section hr {
   margin: 0.5rem auto;
-  border: 1px solid #6BCB77;
+  border: 1px solid #6bcb77;
 }
 
 .newsletter {
@@ -1820,7 +1825,7 @@ button a {
 
 .newsletter .newsletter_right input::placeholder {
   font-size: 1.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .newsletter .newsletter_right button {
@@ -1828,8 +1833,8 @@ button a {
   border-radius: 0.5rem;
   border: none;
   outline: none;
-  background-color: #6BCB77;
-  font-family: 'Poppins', sans-serif;
+  background-color: #6bcb77;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   color: #fff;
 }
@@ -1898,7 +1903,7 @@ button a {
 }
 
 .scroll_to_top {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   padding: 0.8rem 1.5rem;
   position: absolute;
   top: 85%;
@@ -1948,15 +1953,15 @@ button a {
   }
   .footer_section .newsletter .newsletter_right input::placeholder {
     font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .footer_section .newsletter .newsletter_right button {
     padding: 1.1rem;
     border-radius: 0.5rem;
     border: none;
     outline: none;
-    background-color: #6BCB77;
-    font-family: 'Poppins', sans-serif;
+    background-color: #6bcb77;
+    font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
     color: #fff;
   }
@@ -1995,7 +2000,7 @@ button a {
     gap: 5px;
   }
   .scroll_to_top {
-    background-color: #6BCB77;
+    background-color: #6bcb77;
     padding: 0.8rem 1.5rem;
     position: absolute;
     top: 85%;
@@ -2044,15 +2049,15 @@ button a {
   }
   .footer_section .newsletter .newsletter_right input::placeholder {
     font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .footer_section .newsletter .newsletter_right button {
     padding: 1.1rem;
     border-radius: 0.5rem;
     border: none;
     outline: none;
-    background-color: #6BCB77;
-    font-family: 'Poppins', sans-serif;
+    background-color: #6bcb77;
+    font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
     color: #fff;
   }
@@ -2091,7 +2096,7 @@ button a {
     gap: 5px;
   }
   .scroll_to_top {
-    background-color: #6BCB77;
+    background-color: #6bcb77;
     padding: 0.8rem 1.5rem;
     position: absolute;
     top: 85%;
@@ -2140,15 +2145,15 @@ button a {
   }
   .footer_section .newsletter .newsletter_right input::placeholder {
     font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .footer_section .newsletter .newsletter_right button {
     padding: 1.1rem;
     border-radius: 0.5rem;
     border: none;
     outline: none;
-    background-color: #6BCB77;
-    font-family: 'Poppins', sans-serif;
+    background-color: #6bcb77;
+    font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
     color: #fff;
   }
@@ -2187,7 +2192,7 @@ button a {
     gap: 5px;
   }
   .scroll_to_top {
-    background-color: #6BCB77;
+    background-color: #6bcb77;
     padding: 0.8rem 1.5rem;
     position: absolute;
     top: 85%;
@@ -2236,15 +2241,15 @@ button a {
   }
   .footer_section .newsletter .newsletter_right input::placeholder {
     font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .footer_section .newsletter .newsletter_right button {
     padding: 1.1rem;
     border-radius: 0.5rem;
     border: none;
     outline: none;
-    background-color: #6BCB77;
-    font-family: 'Poppins', sans-serif;
+    background-color: #6bcb77;
+    font-family: "Poppins", sans-serif;
     font-size: 1.5rem;
   }
   .footer_section .footer {
@@ -2279,7 +2284,7 @@ button a {
     margin-top: 2rem;
   }
   .scroll_to_top {
-    background-color: #6BCB77;
+    background-color: #6bcb77;
     padding: 0.8rem 1.5rem;
     position: absolute;
     top: 85%;
@@ -2337,7 +2342,7 @@ button a {
 }
 
 .product_btn {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   padding: 1.5rem 2rem;
   border: none;
   outline: none;
@@ -2408,7 +2413,7 @@ button a {
 }
 
 .blog_btn {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   padding: 1.5rem 2rem;
   border: none;
   outline: none;
@@ -2638,7 +2643,7 @@ button a {
   margin: 20px;
   padding: 15px 20px;
   color: #fff;
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   border: none;
   border-radius: 0.5rem;
   font-size: 1.5rem;
@@ -2651,7 +2656,7 @@ button a {
   border-radius: 10px;
   outline: none;
   border: none;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }
 
 .my-form textarea {
@@ -2661,12 +2666,13 @@ button a {
   border-radius: 10px;
   outline: none;
   border: none;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
   padding: 13px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.form_box input, .my-form textarea::placeholder {
+.form_box input,
+.my-form textarea::placeholder {
   color: #6a737c;
   font-size: 16px;
 }
@@ -2695,7 +2701,8 @@ button a {
     gap: 3rem;
     line-height: 3;
   }
-  ol, ul {
+  ol,
+  ul {
     padding-left: 0rem;
   }
   .my-form textarea {
@@ -2726,7 +2733,8 @@ button a {
     gap: 3rem;
     line-height: 3;
   }
-  ol, ul {
+  ol,
+  ul {
     padding-left: 0rem;
   }
   .my-form textarea {
@@ -2765,7 +2773,7 @@ button a {
   overflow: hidden;
   margin-bottom: 20px;
   background: #fff;
-  transition: all .6s ease;
+  transition: all 0.6s ease;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -2799,7 +2807,7 @@ button a {
   bottom: 20px;
   right: 20px;
   padding: 10px 25px;
-  background-color: #EB5353;
+  background-color: #eb5353;
   color: white !important;
   cursor: pointer;
   border-radius: 5px;
@@ -2843,7 +2851,7 @@ button a {
 }
 
 .project .right-bar a {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   color: #fff !important;
   text-decoration: none;
   display: block;
@@ -2911,7 +2919,7 @@ button a {
   opacity: 0;
   transition: opacity 0.3s;
   font-size: 15px;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 .shop_cart .tooltiptext::before {
@@ -2951,7 +2959,7 @@ button a {
   opacity: 0;
   transition: opacity 0.3s;
   font-size: 15px;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 .shop_basket .tooltiptext::before {
@@ -2991,7 +2999,7 @@ button a {
   opacity: 0;
   transition: opacity 0.3s;
   font-size: 15px;
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 .shop_view .tooltiptext::before {
@@ -3032,7 +3040,7 @@ button a {
   display: grid;
   justify-content: center;
   align-items: center;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   /* TABLET STARTS HERE */
   /*DESKTOP STARTS HERE*/
   /* Main CSS Starts Here */
@@ -3052,7 +3060,13 @@ button a {
   width: 100%;
 }
 
-.wrapper_checkout input[type="text"], .wrapper_checkout input[type="password"], .wrapper_checkout select, .wrapper_checkout input[type="email"], .wrapper_checkout input[type="tel"], .wrapper_checkout input[type="date"], .wrapper_checkout textarea {
+.wrapper_checkout input[type="text"],
+.wrapper_checkout input[type="password"],
+.wrapper_checkout select,
+.wrapper_checkout input[type="email"],
+.wrapper_checkout input[type="tel"],
+.wrapper_checkout input[type="date"],
+.wrapper_checkout textarea {
   border: 1px solid #ddd;
   background-color: #fff;
   color: #959595;
@@ -3060,7 +3074,7 @@ button a {
   padding: 10px;
   font-size: 12px;
   margin: 7px 0 25px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .wrapper_checkout label {
@@ -3079,7 +3093,8 @@ button a {
   margin: 5px 10px 5px 15px;
 }
 
-.wrapper_checkout input[type="checkbox"] + p, .wrapper_checkout input[type="radio"] + p {
+.wrapper_checkout input[type="checkbox"] + p,
+.wrapper_checkout input[type="radio"] + p {
   font-size: 15px;
   padding: 0 5px;
   display: inline;
@@ -3094,7 +3109,7 @@ button a {
 .wrapper_checkout input[type="submit"] {
   padding: 10px 20px;
   color: #fff;
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   text-transform: uppercase;
   border: none;
   cursor: pointer;
@@ -3115,7 +3130,7 @@ button a {
 }
 
 .wrapper_checkout .order .place_order_button {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   padding: 13px 30px;
   font-size: 14px;
   font-weight: 100;
@@ -3131,17 +3146,20 @@ button a {
   height: 120px;
 }
 
-.wrapper_checkout textarea:hover, .wrapper_checkout input:hover {
-  border: 1px solid #D6544E;
+.wrapper_checkout textarea:hover,
+.wrapper_checkout input:hover {
+  border: 1px solid #d6544e;
   background-color: #fff;
 }
 
-.wrapper_checkout textarea:active, .wrapper_checkout input:active {
-  border: 1px solid #D6544E;
+.wrapper_checkout textarea:active,
+.wrapper_checkout input:active {
+  border: 1px solid #d6544e;
   background-color: #f5f5f5;
 }
 
-.wrapper_checkout textarea:focus, .wrapper_checkout input:focus {
+.wrapper_checkout textarea:focus,
+.wrapper_checkout input:focus {
   border: 1px solid #000;
   background-color: #f5f5f5;
 }
@@ -3218,7 +3236,8 @@ button a {
   margin-left: -65px;
 }
 
-.wrapper_checkout .row:before, .wrapper_checkout .row:after {
+.wrapper_checkout .row:before,
+.wrapper_checkout .row:after {
   content: " ";
   display: table;
 }
@@ -3236,11 +3255,32 @@ button a {
   margin-right: 0;
 }
 
-.wrapper_checkout .col-1, .wrapper_checkout .col-2, .wrapper_checkout .col-3, .wrapper_checkout .col-4, .wrapper_checkout .col-5, .wrapper_checkout .col-6, .wrapper_checkout .col-7, .wrapper_checkout .col-8, .wrapper_checkout .col-9, .wrapper_checkout .col-10, .wrapper_checkout .col-11, .wrapper_checkout .col-12 {
+.wrapper_checkout .col-1,
+.wrapper_checkout .col-2,
+.wrapper_checkout .col-3,
+.wrapper_checkout .col-4,
+.wrapper_checkout .col-5,
+.wrapper_checkout .col-6,
+.wrapper_checkout .col-7,
+.wrapper_checkout .col-8,
+.wrapper_checkout .col-9,
+.wrapper_checkout .col-10,
+.wrapper_checkout .col-11,
+.wrapper_checkout .col-12 {
   width: 100%;
 }
 
-.wrapper_checkout .col-push-1, .wrapper_checkout .col-push-2, .wrapper_checkout .col-push-3, .wrapper_checkout .col-push-4, .wrapper_checkout .col-push-5, .wrapper_checkout .col-push-6, .wrapper_checkout .col-push-7, .wrapper_checkout .col-push-8, .wrapper_checkout .col-push-9, .wrapper_checkout .col-push-10, .wrapper_checkout .col-push-11 {
+.wrapper_checkout .col-push-1,
+.wrapper_checkout .col-push-2,
+.wrapper_checkout .col-push-3,
+.wrapper_checkout .col-push-4,
+.wrapper_checkout .col-push-5,
+.wrapper_checkout .col-push-6,
+.wrapper_checkout .col-push-7,
+.wrapper_checkout .col-push-8,
+.wrapper_checkout .col-push-9,
+.wrapper_checkout .col-push-10,
+.wrapper_checkout .col-push-11 {
   margin-left: 0;
 }
 
@@ -3248,16 +3288,36 @@ button a {
   .wrapper_checkout .wrapper {
     width: 768px;
   }
-  .wrapper_checkout .col-1, .wrapper_checkout .col-2, .wrapper_checkout .col-3, .wrapper_checkout .col-4, .wrapper_checkout .col-5, .wrapper_checkout .col-6, .wrapper_checkout .col-7, .wrapper_checkout .col-8, .wrapper_checkout .col-9, .wrapper_checkout .col-10, .wrapper_checkout .col-11 {
+  .wrapper_checkout .col-1,
+  .wrapper_checkout .col-2,
+  .wrapper_checkout .col-3,
+  .wrapper_checkout .col-4,
+  .wrapper_checkout .col-5,
+  .wrapper_checkout .col-6,
+  .wrapper_checkout .col-7,
+  .wrapper_checkout .col-8,
+  .wrapper_checkout .col-9,
+  .wrapper_checkout .col-10,
+  .wrapper_checkout .col-11 {
     width: 376px;
   }
   .wrapper_checkout .col-12 {
     width: 100%;
   }
-  .wrapper_checkout .col-push-1, .wrapper_checkout .col-push-2, .wrapper_checkout .col-push-3, .wrapper_checkout .col-push-4, .wrapper_checkout .col-push-5, .wrapper_checkout .col-push-6, .wrapper_checkout .col-push-7, .wrapper_checkout .col-push-8, .wrapper_checkout .col-push-9, .wrapper_checkout .col-push-10, .wrapper_checkout .col-push-11 {
+  .wrapper_checkout .col-push-1,
+  .wrapper_checkout .col-push-2,
+  .wrapper_checkout .col-push-3,
+  .wrapper_checkout .col-push-4,
+  .wrapper_checkout .col-push-5,
+  .wrapper_checkout .col-push-6,
+  .wrapper_checkout .col-push-7,
+  .wrapper_checkout .col-push-8,
+  .wrapper_checkout .col-push-9,
+  .wrapper_checkout .col-push-10,
+  .wrapper_checkout .col-push-11 {
     margin-left: 392px;
   }
-  .wrapper_checkout .col:nth-child(2n+2) {
+  .wrapper_checkout .col:nth-child(2n + 2) {
     margin-right: 0;
   }
 }
@@ -3335,7 +3395,7 @@ button a {
   .wrapper_checkout .col-push-11 {
     margin-left: 1056px;
   }
-  .wrapper_checkout .col:nth-child(2n+2) {
+  .wrapper_checkout .col:nth-child(2n + 2) {
     margin-right: 16px;
   }
   .wrapper_checkout .col:last-child {
@@ -3344,11 +3404,16 @@ button a {
 }
 
 .wrapper_checkout body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #959595;
 }
 
-.wrapper_checkout h1, .wrapper_checkout h2, .wrapper_checkout h3, .wrapper_checkout h4, .wrapper_checkout h5, .wrapper_checkout h6 {
+.wrapper_checkout h1,
+.wrapper_checkout h2,
+.wrapper_checkout h3,
+.wrapper_checkout h4,
+.wrapper_checkout h5,
+.wrapper_checkout h6 {
   text-transform: uppercase;
   font-weight: 900;
   padding: 20px 0;
@@ -3422,10 +3487,10 @@ button a {
 .wrapper_checkout .white-space {
   height: 90px;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0px 12px 14px -10px #DDDDDD;
-  -webkit-box-shadow: 0px 12px 14px -10px #DDDDDD;
-  -moz-box-shadow: 0px 12px 14px -10px #DDDDDD;
-  -o-box-shadow: 0px 12px 14px -10px #DDDDDD;
+  box-shadow: 0px 12px 14px -10px #dddddd;
+  -webkit-box-shadow: 0px 12px 14px -10px #dddddd;
+  -moz-box-shadow: 0px 12px 14px -10px #dddddd;
+  -o-box-shadow: 0px 12px 14px -10px #dddddd;
 }
 
 .wrapper_checkout .fa-info {
@@ -3437,7 +3502,7 @@ button a {
 }
 
 .wrapper_checkout a {
-  color: #D6544E;
+  color: #d6544e;
   font-size: 13px;
   text-decoration: none;
 }
@@ -3476,7 +3541,8 @@ button a {
   line-height: 20px;
 }
 
-.wrapper_checkout .order h4, .wrapper_checkout h5 {
+.wrapper_checkout .order h4,
+.wrapper_checkout h5 {
   padding: 0;
 }
 
@@ -3523,7 +3589,7 @@ button a {
 }
 
 .wrapper_checkout .paymenttypes {
-  border: 1px solid #DDDDDD;
+  border: 1px solid #dddddd;
   width: 135px;
   padding: 0 8px;
   margin: 0 0 20px 10px;
@@ -3796,12 +3862,12 @@ button a {
 
 .single_page_product_section .single_page_product_right .single_page_product_price .strike {
   font-size: 2.5rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .single_page_product_section .single_page_product_right .single_page_product_price .price {
   font-size: 3rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .single_page_product_section .single_page_product_right select {
@@ -3811,7 +3877,7 @@ button a {
   -webkit-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   -moz-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 2rem;
   color: #666666;
   font-size: 1.5rem;
@@ -3824,7 +3890,7 @@ button a {
   -webkit-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   -moz-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-left: 1rem;
   max-width: 6rem;
   color: #666666;
@@ -3840,21 +3906,21 @@ button a {
   box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   -webkit-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
   -moz-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
-  transition: background-color .3s ease-in-out;
-  -webkit-transition: background-color .3s ease-in-out;
-  -moz-transition: background-color .3s ease-in-out;
-  -o-transition: background-color .3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
   color: #666666;
   font-size: 1.5rem;
 }
 
 .single_page_product_section .single_page_product_right .single_page_product-button .add_to_cart:hover {
-  background-color: #6BCB77;
+  background-color: #6bcb77;
 }
 
 .single_page_product_section .single_page_product_right .single_page_product-button .buy_now {
   margin-left: 0.5rem;
-  background-color: #6BCB77;
+  background-color: #6bcb77;
   border: none;
   color: #fff;
   color: #666666;
@@ -3905,7 +3971,9 @@ button a {
   .single_page_product_section .single_page_product h2 {
     margin-left: 3rem;
   }
-  .single_page_product_section .single_page_product_right .single_page_product_price {
+  .single_page_product_section
+.single_page_product_right
+.single_page_product_price {
     margin-top: 2rem;
     margin-left: 36px;
   }
@@ -3918,7 +3986,10 @@ button a {
   .similar_product_section .similar_product_arrow {
     display: none;
   }
-  .single_page_product_section .single_page_product_right .single_page_product-button .add_to_cart {
+  .single_page_product_section
+.single_page_product_right
+.single_page_product-button
+.add_to_cart {
     margin-left: 29px;
   }
 }

@@ -1,90 +1,73 @@
 .product_section {
-    background: url(../images/product-back.jpg);
-    padding: 5rem 0;
-    text-align: center;
-    position: relative;
+  background: url(../images/product-back.jpg);
+  padding: 5rem 0;
+  text-align: center;
+  position: relative;
 
-    .product_arrow {
-        position: absolute;
-        top: 77%;
-        right: 39%;
-    }
-    
-    h1 {
-        padding:3rem 0rem;
-    }
+  .product_arrow {
+    position: absolute;
+    top: 77%;
+    right: 39%;
+  }
+
+  h1 {
+    padding: 3rem 0rem;
+  }
 }
 .cell {
-    box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
-    -webkit-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
-    -moz-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
-    margin-left: 10px;
+  box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(204, 204, 204, 0.75);
+  margin-left: 10px;
 
-    img {
-        width: 100%;
-        height: 350px;
-        object-fit: cover;
-    }
+  img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
 }
 
 .flickity-page-dots {
-    display: none;
+  display: none;
 }
-
 
 .product_btn {
-    background-color: $hover-color;
-    padding: 1.5rem 2rem;
-    border: none;
-    outline: none;
-    
-    border-radius: 0.5rem;
-    margin: 3rem;
+  background-color: $hover-color;
+  padding: 1.5rem 2rem;
+  border: none;
+  outline: none;
 
-    a {
-        font-size: 1.6rem;
-        color: #fff !important;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+  border-radius: 0.5rem;
+  margin: 3rem;
+
+  a {
+    font-size: 1.6rem;
+    color: #fff !important;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 }
-
-
-
 
 /******************* - MEDIA QUERIES STARTED - ***********************/
 
 @media (max-width: 430px) {
-
-   .product_section .product_arrow {
-       display: none;
-   }
-
+  .product_section .product_arrow {
+    display: none;
+  }
 }
 @media (min-width: 435px) and (max-width: 800px) {
-
-   .product_section .product_arrow {
-    
-        position: absolute;
-        top: 77%;
-        right: 30%;
-    }
-   
-
+  .product_section .product_arrow {
+    position: absolute;
+    top: 77%;
+    right: 30%;
+  }
 }
 @media (min-width: 810px) and (max-width: 1050px) {
-
-   .product_section .product_arrow {
-    
-        position: absolute;
-        top: 77%;
-        right: 34%;
-    }
-   
-
+  .product_section .product_arrow {
+    position: absolute;
+    top: 77%;
+    right: 34%;
+  }
 }
 
-
-
 /******************* - MEDIA QUERIES STARTED - ***********************/
-
