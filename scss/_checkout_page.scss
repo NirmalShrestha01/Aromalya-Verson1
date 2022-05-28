@@ -173,7 +173,7 @@
         gap: 20rem;
 
         input {
-            width: 5rem;
+            width: 7rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -677,6 +677,89 @@
 
 }
 
+// Card section start
+
+
+.payment_cards label:not(.notes):after {
+    display: none;
+}
+.paypal_method label:not(.notes):after {
+    display: none;
+}
+
+.collapsible_cards {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    
+    
+  }
+
+  .payment_cards {
+    padding: 10px !important;
+    align-items: center;
+
+    p {
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+  }
+
+  .card_details {
+  
+    display: none;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    padding: 5px !important;
+  }
+
+  .card_details input {
+    outline: none;
+        border: none !important;
+        width: 300px !important;
+        box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+  }
+
+  .card_details_two_row {
+      display: flex;
+      gap: 10px;
+  }
+
+  .collapsible_paypal {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    margin-top: 10px;
+    height: 5.4rem;
+    
+    
+  }
+
+  .paypal_details {
+  
+    display: none;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    padding: 10px !important;
+    align-items: center;
+  }
+
+  .paypal_method {
+      padding: 10px !important;
+  }
+
+
+
+
+// Card section end
+
 
 /******************* - MEDIA QUERIES STARTED - ***********************/
 
@@ -688,6 +771,11 @@
        }
    }
 
+   .previous_login {
+    width: 300px;
+    margin-left: 65px;
+   }
+
    .wrapper_checkout {
        padding-left: 10px !important;
     //    padding-right: 10px !important;
@@ -696,7 +784,55 @@
 
    .wrapper_checkout .info-bar {
     margin: 20px 34px;
-}
+    }
+
+    .user-pswd {
+        display: flex;
+        flex-direction: column;
+        margin-left: 65px;
+    }
+
+    .checkout_login_btn {
+        width: 100px;
+    }
+
+    .checkout_forget_password {
+        margin-left: 65px;
+    }
+
+    .checkout_coupon {
+        
+        margin-left: 55px;
+    }
+
+    .billing_details_section  {
+        display: flex;
+        flex-direction: column;
+        margin-left: 65px;
+
+    }
+
+    .wrapper_checkout input[type="text"], 
+    .wrapper_checkout input[type="password"], 
+    .wrapper_checkout select, 
+    .wrapper_checkout input[type="email"], 
+    .wrapper_checkout input[type="tel"], 
+    .wrapper_checkout input[type="date"], 
+    .wrapper_checkout textarea {
+        width: 303px;
+    }
+
+    .card_details input {
+        outline: none;
+        border: none !important;
+        width: 150px !important;
+        box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+        -webkit-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+        -moz-box-shadow: 0px 0px 4px 0px rgba(204,204,204,0.75);
+    }
+    
+
+
 }
     
 @media (min-width:435px) and (max-width: 800px) {
@@ -708,7 +844,6 @@
  
     .wrapper_checkout {
         padding-left: 10px !important;
-     //    padding-right: 10px !important;
         width: 100px !important;
     }
  
@@ -719,7 +854,7 @@
     .wrapper_checkout .total_product {
         display: flex;
         align-items: center;
-        gap: 8rem;
+        gap: 2rem;
     }
 
     .wrapper_checkout .payment_cards {
@@ -737,8 +872,16 @@
 }
 @media (min-width:810px) and (max-width: 1050px) {
     
+    .wrapper_checkout .order .center {
+        line-height: 40px;
+        color: #000;
+        margin-left: -65px;
+    }
     
-    
+    .wrapper_checkout .payment_cards .credit_cards {
+      
+        gap: 35px;
+    }
 }
     
     

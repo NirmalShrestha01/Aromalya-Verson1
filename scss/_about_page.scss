@@ -93,7 +93,7 @@
         flex-direction: column;
 
         .know_us_section_left {
-          
+          padding: 6rem;
             img {
                 width: 100%;
             }
@@ -106,6 +106,18 @@
 
         .know_us_section_right {
             margin: 2rem;
+            padding: 1.2rem;
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
+            img {
+                width: 14rem;
+            }
         }
         
     
